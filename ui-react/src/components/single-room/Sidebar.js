@@ -19,9 +19,9 @@ const Sidebar = ({ config, details, room }) => (
               <td className="up__meeting-title" >{item.Subject}</td>
               <td className="up__meeting-time" width="44%" >
                 { item.Start && item.End ?
-                  new Date(parseInt(item.Start, 10)).toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute: '2-digit'}) 
+                  new Date(parseInt(item.Start, 10)).toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute: '2-digit', 'hour12': false}) 
                   + ' - ' + 
-                  new Date(parseInt(item.End, 10)).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})
+                  new Date(parseInt(item.End, 10)).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', 'hour12': false})
                 :
                   ''
                 }
