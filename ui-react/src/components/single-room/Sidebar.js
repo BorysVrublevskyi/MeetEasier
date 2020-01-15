@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Clock from './Clock';
 
 const Sidebar = ({ config, details, room }) => (
-  <div className="columns small-4 right-col">
+  <div className="columns large-4 right-col">
     <div id="single-room__clock-wrap">
       <Clock />
     </div>
