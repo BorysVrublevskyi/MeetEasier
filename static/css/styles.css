@@ -177,7 +177,7 @@ body {
 
     @media (max-width: 1024px) { #single-room__wrap .full-height .columns {
       height: auto; } /*height: 100vh;*/ }
-      @media (min-width: 1025px) {#single-room__wrap .full-height .columns {
+    @media (min-width: 1024px) {#single-room__wrap .full-height .columns {
         height: 100vh; } /*height: 100vh;*/}
 
     #single-room__wrap .full-height .left-col {
