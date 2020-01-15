@@ -462,7 +462,7 @@ function ButtonControl(props){
   }
 }
 const RoomStatusBlock = ({ config, details, room, togglePopup, showPopup }) => (
-  <div className={room.Busy ? 'columns small-8 left-col busy' : 'columns small-8 left-col open'}>
+  <div className={room.Busy ? 'columns large-8 left-col busy' : 'columns large-8 left-col open'}>
   <table id="single-room__logo-name-table">
     <tr><td id="single-room__org-logo-td">
     <div id="single-room__org-logo">

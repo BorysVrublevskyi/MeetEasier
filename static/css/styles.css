@@ -190,6 +190,7 @@ body {
 		  user-select:none;
 		  -o-user-select:none;
         text-transform: uppercase;
+        text-align: center;
         /*padding: 1% 0;*/
         font-size: 15vw;
         line-height:1 !important;
