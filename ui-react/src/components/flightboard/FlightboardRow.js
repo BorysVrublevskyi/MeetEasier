@@ -100,12 +100,12 @@ const FlightboardRow = ({ room, filter }) => {
                 <div className={room.RoomAlias + '-status meeting-room__status medium-2 columns'}>
                   <Status room={room} />
                 </div>
-                <div className="medium-3 columns">
+                <div className="medium-7 columns">
                   <div className={room.RoomAlias + '-name meeting-room__name'}>
                     {room.Name}
                   </div>
                 </div>
-                <div className="medium-6 columns">
+                <div className="medium-5 columns">
                   <Subject room={room} />
                   <Time room={room} />
                   <Organizer room={room} />
